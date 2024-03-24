@@ -29,8 +29,8 @@ console.log({sliceArray});
 
  //write a javascript to search for the following word in the array."food" if the word is present,return it else return "the search word was not found "
 let arr5=["the","way","x","4"];
-let arrw=arr5.includes("food");
-if(w==true){
+let q=arr5.includes("food");
+if(q==true){
   console.log("food");
 }
 else{
@@ -41,8 +41,12 @@ else{
 
 //write a js script to sort the following string
 let word="renniw"
-let x=word.sort();
+let x=word.split();
 console.log(x);
+let a=x.sort();
+console.log(a);
+const change=a.toString();
+console.log(change);
 
 
 
